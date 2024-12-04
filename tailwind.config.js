@@ -33,7 +33,7 @@ module.exports = {
         'custom-sm': "28px",
         'custom-lg': "39px",
         'custom-xxl': "62px",
-        'custom-xl': "36px",
+        'custom-xl': "50px",
         'custom-2xl': "85px",
         'custom-3xl': "90px",
 
@@ -41,7 +41,7 @@ module.exports = {
       lineHeight: {
         'custom-lg': "45px",
         'custom-xxl': "66px",
-        'custom-xl': "36px",
+        'custom-xl': "68px",
         'custom-2xl': "85px",
         'custom-3xl': "90px",
       },
