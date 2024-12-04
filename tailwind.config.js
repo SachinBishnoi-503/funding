@@ -23,7 +23,7 @@ module.exports = {
         'charcoal': "#0E1122",
         'eggshell': "#EFECE6",
         'rich-black': "#0E1122",
-        'night-skyblue': "#61A0FF",
+        'off-grey': "#76767F",
         'charcol': "#474747",
         'midnight-blue': "#010026",
         'night-blue': "#000A18",
