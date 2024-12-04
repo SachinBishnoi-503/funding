@@ -5,6 +5,7 @@ import Shopify from './components/Shopify';
 import Rating from './components/Rating';
 import Faq from './components/Faq';
 import Become from './components/Become';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       {/* <Evaluation/> */}
       {/* <Rating/> */}
       {/* <Faq/> */}
-      <Become/>
+      {/* <Become/> */}
+      <Footer/>
     </>
   );
 }
