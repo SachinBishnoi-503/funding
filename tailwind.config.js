@@ -21,8 +21,8 @@ module.exports = {
       colors: {
         'violet-blue': "#4C57FF",
         'charcoal': "#0E1122",
-        'purple': "#AD00FF",
-        'skyblue': "#1877F2",
+        'eggshell': "#EFECE6",
+        'rich-black': "#0E1122",
         'night-skyblue': "#61A0FF",
         'charcol': "#474747",
         'midnight-blue': "#010026",
@@ -31,7 +31,7 @@ module.exports = {
 
       fontSize: {
         'custom-sm': "28px",
-        'custom-lg': "30px",
+        'custom-lg': "39px",
         'custom-xxl': "62px",
         'custom-xl': "36px",
         'custom-2xl': "85px",
@@ -39,7 +39,7 @@ module.exports = {
 
       },
       lineHeight: {
-        'custom-lg': "30px",
+        'custom-lg': "45px",
         'custom-xxl': "66px",
         'custom-xl': "36px",
         'custom-2xl': "85px",
