@@ -13,10 +13,10 @@ function App() {
       {/* <Hero/>  */}
       {/* <Shopify/> */}
       {/* <Evaluation/> */}
-      {/* <Rating/> */}
-      {/* <Faq/> */}
+      <Rating/>
+      {/* <Faq/>   */}
       {/* <Become/> */}
-      <Footer/>
+      {/* <Footer/> */}
     </>
   );
 }
