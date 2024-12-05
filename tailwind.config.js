@@ -31,6 +31,7 @@ module.exports = {
 
       fontSize: {
         'custom-sm': "28px",
+        'custom-xlg': "32px",
         'custom-lg': "39px",
         'custom-xxl': "62px",
         'custom-xl': "50px",

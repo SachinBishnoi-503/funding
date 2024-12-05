@@ -10,11 +10,11 @@ const Footer = () => {
     return (
         <div className='min-h-[161px] w-full bg-charcoal'>
             <div className='px-[52px] py-[57px] flex items-center justify-between'>
-                <div className='flex items-center gap-[77px]'>
+                <div className='flex items-center max-lg:gap-[14px] max-lg:items-start lg:gap-[77px] max-lg:flex-col max-lg:flex'>
                     <img src={logo} alt="" />
                     <p className='text-off-grey font-medium font-poppins text-sm max-w-[163px]'>8fig, 1717 W 6th St, Austin, Texas</p>
                 </div>
-                <div className='flex items-center'>
+                <div className='flex items-center lg:hidden'>
                     <img src={year} alt="" />
                     <p className='font-poppins font-medium text-sm text-off-grey'>2024 8fig - All Rights Reserved</p>
                 </div>

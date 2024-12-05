@@ -14,14 +14,14 @@ const Faq = () => {
             <div className="container">
                 <div className='flex-col flex justify-center items-center mx-auto pt-[70px]'>
                     <p className='text-off-grey text-sm font-poppins font-medium '>STILL HAVE QUESTIONS?</p>
-                    <h2 className='text-custom-lg leading-custom-lg text-charcoal mt-5 font-semibold font-abril'>Learn more with FAQ</h2>
+                    <h2 className='max-md:text-custom-xlg md:text-custom-lg leading-custom-lg text-charcoal mt-5 font-semibold font-abril'>Learn more with FAQ</h2>
                 </div>
                 <div id="accordion-flush" className='mt-[24px]'>
                     {/* 1th accordian */}
                     <h2 id="accordion-flush-heading-1">
                         <button
                             type="button"
-                            className="flex items-center justify-between w-full py-5 font-medium font-poppins font-midium text-xl text-charcoal border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3"
+                            className="flex items-center justify-between w-full py-5 font-medium font-poppins font-midium max-sm:text-sm sm:text-xl text-charcoal border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3"
                             onClick={() => toggleAccordion(1)}
                             aria-expanded={activeIndex === 1 ? "true" : "false"}
                             aria-controls="accordion-flush-body-1"
@@ -59,7 +59,7 @@ const Faq = () => {
                     <h2 id="accordion-flush-heading-2">
                         <button
                             type="button"
-                            className="flex items-center justify-between w-full py-5 font-medium font-poppins font-midium text-xl text-charcoal border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3"
+                            className="flex items-center justify-between w-full py-5 font-medium font-poppins font-midium max-sm:text-sm sm:text-xl text-charcoal border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3"
                             onClick={() => toggleAccordion(2)}
                             aria-expanded={activeIndex === 2 ? "true" : "false"}
                             aria-controls="accordion-flush-body-2"
@@ -96,7 +96,7 @@ const Faq = () => {
                     <h2 id="accordion-flush-heading-3">
                         <button
                             type="button"
-                            className="flex items-center justify-between w-full py-5 font-medium font-poppins font-midium text-xl text-charcoal border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3"
+                            className="flex items-center justify-between w-full py-5 font-medium font-poppins font-midium max-sm:text-sm sm:text-xl text-charcoal border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3"
                             onClick={() => toggleAccordion(3)}
                             aria-expanded={activeIndex === 3 ? "true" : "false"}
                             aria-controls="accordion-flush-body-3"
@@ -136,7 +136,7 @@ const Faq = () => {
                     <h2 id="accordion-flush-heading-4">
                         <button
                             type="button"
-                            className="flex font-poppins font-midium text-xl text-charcoal items-center justify-between w-full py-5 font-medium  border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3"
+                            className="flex font-poppins font-midium max-sm:text-sm sm:text-xl text-charcoal items-center justify-between w-full py-5 font-medium  border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3"
                             onClick={() => toggleAccordion(4)}
                             aria-expanded={activeIndex === 4 ? "true" : "false"}
                             aria-controls="accordion-flush-body-3"
